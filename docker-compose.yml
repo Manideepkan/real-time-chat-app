@@ -17,7 +17,7 @@ services:
     container_name: chat-app
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - "3100:3000"
     environment:
       MONGO_URL: mongodb://mongo:27017
       DB_NAME: chatdb

@@ -33,7 +33,7 @@ pipeline {
                 bat '"%COMPOSE%" -p realtime-chat -f docker-compose.yml up -d'
                 sleep time: 15, unit: 'SECONDS'
                 bat '"%COMPOSE%" -p realtime-chat -f docker-compose.yml ps'
-                bat 'curl.exe -s http://localhost:3000/health'
+                bat 'curl.exe -s http://localhost:3100/health'
             }
         }
 

@@ -28,7 +28,7 @@ k8s/            ConfigMap, MongoDB (PVC + Deployment + Service), chat-app Deploy
 
 ## Run locally
 ```bash
-docker compose up -d --build      # http://localhost:3000
+docker compose up -d --build      # http://localhost:3100
 docker compose down
 ```
 
